@@ -15,7 +15,8 @@ For starting up the localhost server :
 4. Hit localhost:8080 on the browser.
  
 # postgreSQL, express and sequelize
-##postgresql
+## postgresql
+### ubuntu
 Install:
 sudo apt-get install postgresql postgresql-contrib
 
@@ -41,7 +42,7 @@ then lets create a table:
 npm i -S pg
   
   
-  Windows
+### Windows
 add psql to the environment variables 
 https://siteofachyu.wordpress.com/2017/11/03/psql-not-recognized-as-an-internal-or-external-command-in-windows/
 https://www.youtube.com/watch?v=fD7x8hd9yE4

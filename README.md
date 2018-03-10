@@ -47,3 +47,8 @@ add psql to the environment variables
 https://siteofachyu.wordpress.com/2017/11/03/psql-not-recognized-as-an-internal-or-external-command-in-windows/
 https://www.youtube.com/watch?v=fD7x8hd9yE4
 
+# loading the database
+on the command line in the root folder, run the following command:
+node loadDataIntoDB.js 
+
+

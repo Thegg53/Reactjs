@@ -26,7 +26,7 @@ app.use('*', function(req,res, next){
   res.send('you\'ve arrived to the default route')
 })
 
-var server = app.listen(3000, function(){
+var server = app.listen(3001, function(){
   console.log('listening on port ', server.address().port);
   db.sync({force: false})
   .then(message => {
